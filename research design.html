@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects of AI Overreliance</title>
+    <style>
+        .logo img{
+            padding: 45px;
+            width: 45px;
+            border-radius: 80px;
+        }
+
+        body {
+            font-family:'Courier New', Courier, monospace;
+            margin-top: 170px;
+            background-color: #000; /* Dark background */
+            color: #74d1ee; /* White text */
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-image: linear-gradient(to right, #000000, #000000);
+            box-shadow:rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #a3c3d6;
+            text-decoration: none;
+        }
+
+        .menu-icon {
+            display: none; /* Hide initially on larger screens */
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url(head.gif); /* Replace with your AI image */
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .hero a {
+            background-color: #067dfc;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Content Section */
+        .content {
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+
+        .content h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .content h3 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 1.1em;
+        }
+
+        .ai {
+            margin-bottom: 100px;
+            padding: 100px;
+        }
+
+        /* Advantages/Disadvantages Styling */
+        .advantages, .disadvantages {
+            margin-top: 100px;
+            padding: 100px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                width: 98%;
+            }
+
+            nav ul {
+                display: none; /* Hide links on smaller screens */
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.9);
+                width: 100%;
+                text-align: center;
+            }
+
+            nav li {
+                margin: 10px 0;
+            }
+
+            .menu-icon {
+                display: block; /* Show menu icon on smaller screens */
+            }
+
+            .nav-open ul {
+                display: flex; /* Show menu when open */
+            }
+
+            .hero {
+                height: auto; /* Adjust hero height for smaller screens */
+                padding: 50px 20px;
+                width: 108%;
+            }
+
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .hero p {
+                font-size: 1em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .content h2 {
+                font-size: 2.5em;
+            }
+
+            .ai {
+                padding: 10px;
+            }
+
+            .advantages, .disadvantages {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="head">
+            <a href="#" class="logo" style="font-weight: bold;"><img src="ai logo.png"></a> <!--  Or your logo here -->
+        </div>
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#advantages">Advantages</a></li>
+            <li><a href="#disadvantages">Disadvantages</a></li>
+        </ul>
+        <div class="menu-icon">&#9776;</div>
+    </nav>
+    </header>
+    <section class="hero">
+        <h1>Effects of AI Overreliance</h1>
+        <p>Let's discover this information together!</p>
+        <a href="#content">Get Started</a>
+    </section>
+
+    <section id="content" class="content">
+        <section id="ai" class="ai">
+        <h2>Artificial Intelligence(A.I)</h2>
+        <p>Artificial Intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. The term is frequently applied to the project of developing systems endowed with the intellectual processes characteristic of humans, such as the ability to reason, discover meaning, generalize, or learn from past experience. Since their development in the 1940s, digital computers have been programmed to carry out very complex tasks—such as discovering proofs for mathematical theorems or playing chess—with great proficiency. Despite continuing advances in computer processing speed and memory capacity, there are as yet no programs that can match full human flexibility over wider domains or in tasks requiring much everyday knowledge.</p>
+        </section>
+        
+        <section id="advantages" class="advantages">
+            <h2>Advantages of AI</h2>
+            <h3>Automation</h3>
+            <p>Another known benefit of AI is the automation it brings along! In our daily work, we perform many repetitive tasks,
+                 such as checking documents for flaws and mailing thank-you notes. Artificial intelligence may efficiently automate these
+                  menial chores and even eliminate "boring" tasks for people, allowing them to focus on being more creative.</p>
+
+            <h3>Improving Human Workflows</h3>
+            <p>AI analyzes work processes and identifies inefficiencies, suggesting improvements for better human workflows.
+                 By examining how tasks are performed, AI can pinpoint areas where time and resources are wasted, offering recommendations
+                  for streamlining operations. This helps organizations optimize workflow, improve employee productivity, and reduce operational costs.</p>
+
+            <h3>Digital Assistance</h3>
+            <p>Digital assistants are employed by some of the most advanced companies to interact with users, reducing the need for human personnel.
+                 Many websites use digital assistants to deliver content based on user requests, enabling us to have conversational searches.
+                  Some chatbots are so sophisticated that it's difficult to tell whether we're communicating with a human or a machine.</p>
+        </section>
+
+        <section id="disadvantages" class="disadvantages">
+            <h2>Disadvantages of AI</h2>
+            <h3>Creativity</h3>
+            <p>Artificial Intelligence (AI) often lacks the intrinsic creativity of humans, which stems from emotional depth, abstract thinking,
+                 and imaginative processes. While AI can mimic creativity by generating art, music, or writing based on existing patterns,
+                  it doesn't possess genuine originality or the ability to think outside the box.
+                AI's creative outputs essentially recombine pre-existing data, limiting its capacity for true innovation.
+                 This reliance on patterns and data constrains AI, making it challenging to match human creativity's nuanced and unpredictable nature,
+                  which thrives on intuition and emotional intelligence.</p>
+
+            <h3>Encouraging Human Laziness</h3>
+            <p>The increasing reliance on AI for tasks ranging from mundane chores to complex decision-making can lead to human laziness.
+                 As AI systems take over more responsibilities, individuals might become less inclined to develop their skills and knowledge, relying excessively on technology.
+                This dependency can diminish critical thinking and problem-solving abilities, as people might defer to AI solutions without questioning their validity
+                 or exploring alternatives. Over time, this could lead to a less capable workforce.</p>
+
+            <h3>Lack of Common Sense</h3>
+            <p>Despite their advanced capabilities, AI systems often need more common sense reasoning.
+                They can process and analyze vast amounts of data but need help understanding context, making intuitive judgments,
+                 or adapting to new and unforeseen situations. This limitation can lead to errors or inappropriate actions in scenarios that require nuanced understanding
+                  and flexibility.</p>
+        </section>
+    </section>
+
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('nav-open');
+        });
+    </script>
+
+</body>
+</html>

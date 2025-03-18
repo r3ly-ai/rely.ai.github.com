@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        .logo-1 img{
+            padding: 45px;
+            width: 45px;
+            border-radius: 80px;
+        }
+
+        body {
+            font-family:'Courier New', Courier, monospace;
+            margin: 0;
+            background-color: #000; /* Dark background */
+            background-image: url(tiktak.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #ebebeb; /* White text */
+            line-height: 1.6;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #a3c3d6;
+            text-decoration: none;
+        }
+
+        .menu-icon {
+            display: none; /* Hide initially on larger screens */
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* Manage Section */
+        .manage { /* Replace with your AI image */
+            background-size: cover;
+            background-position: center;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 5px;
+            font-size:50px ;
+        }
+
+        /* Content Section */
+        .members {
+            padding: 5px;
+            position: relative;
+            width: 40%;
+            flex-direction: column;
+            justify-content: right;
+            align-items: center;
+            text-align: center;
+            margin-left: 30%;
+
+        }
+
+        .members h2 {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+
+        .members h3 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .individuals {
+            line-height: 1.0;
+
+        }
+
+        .contain {
+            background-color: rgba(0, 0, 0, 0.63);
+            border-radius: 20px;
+            padding: 70px;
+            margin-top: 30px;
+        }
+
+        .image {
+            max-width: 150px;
+            max-height: 150px;
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+            size: 30%;
+        }
+
+        .concern {
+            position: relative;
+            text-align: right;
+        }
+        
+       .logo img{
+            width: 45px;
+            border-radius: 80px;
+       }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none; /* Hide links on smaller screens */
+                flex-direction: column;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                background-color: rgba(0, 0, 0, 0.9);
+                width: 100%;
+                text-align: center;
+            }
+
+            nav li {
+                margin: 10px 0;
+            }
+
+            .menu-icon {
+                display: block; /* Show menu icon on smaller screens */
+            }
+
+            .nav-open ul {
+                display: flex; /* Show menu when open */
+            }
+
+            body {
+                background-image: url(tiktak.gif);
+                background-repeat:no-repeat ;
+                background-position: center;
+                margin-bottom: 100px;
+                background-size: cover;
+                line-height: 1.0;
+            }
+
+            .manage {
+                height: auto; /* Adjust hero height for smaller screens */
+                padding: 30px 20px;
+            }
+
+            .manage h2 {
+                font-size: 1.0em;
+            }
+
+            .members {
+                padding: 20px;
+            }
+
+            .members h2 {
+                font-size: 2.0em;
+            }
+
+            .members h3 {
+                font-size: 1.0em;
+                text-align: start;
+            }
+
+            .images {
+                align-items: center;
+                flex-direction: column;
+            }
+        }
+        .social-icons a.instagram:hover{
+            color: #c13584;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="head-2">
+            <a href="research design.html" class="logo-1" style="font-weight: bold;"><img src="ai logo.png"></a> <!--  Or your logo here -->
+        </div>
+        <ul>
+            <li><a href="research design.html">Home</a></li>
+        </ul>
+        <div class="menu-icon">&#9776;</div>
+    </nav>
+    </header>
+    <section class="manage">
+        <div class="team">
+        <h2>Management Team</h2>
+        </div>
+    </section>
+
+    <section class="members">
+        <div class="contain">
+        <section class="individuals">
+            <img class="image" src="KYLEE.jpg">
+            <h2>Kylee Merza</h2>
+            <h3>Project Manager/Research Writer</h3>
+                <a href="#" class="logo"><img src="fb.avif"></a>
+                <a href="#" class="logo"><img src="insta.avif"></a>
+        </section>
+        </div>
+
+        <div class="contain">
+        <section class="individuals">
+            <img class="image" src="RONALD.jpg">
+            <h2>Ronald Guevarra</h2>
+            <h3>Web Designer
+                /Researcher</h3>
+                <a href="#" class="logo"><img src="fb.avif"></a>
+                <a href="#" class="logo"><img src="insta.avif"></a>
+        </section>
+        </div>
+
+        <div class="contain">
+        <section class="individuals">
+            <img class="image" src="ABEJUELA.jpg">
+            <h2>John Adrian Abejuela</h2>
+            <h3>Web Developer
+                /Researcher</h3>
+                <a href="#" class="logo"><img src="fb.avif"></a>
+                <a href="#" class="logo"><img src="insta.avif"></a>
+        </section>
+        </div>
+
+        <div class="contain">
+        <section class="individuals">
+            <img class="image" src="MEANNE.jpg">
+            <h2>Maeanne De Guzman</h2>
+            <h3>Researcher</h3>
+            <a href="#" class="logo"><img src="fb.avif"></a>
+            <a href="#" class="logo"><img src="insta.avif"></a>
+        </section>
+    </div>
+    <h3 class="concern">If you have any concerns, feel free to contact us!</h3>
+    </section>
+
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('nav-open');
+        });
+    </script>
+</body>
+</html>
